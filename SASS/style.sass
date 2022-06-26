@@ -1,0 +1,117 @@
+$Cyan: hsl(179, 62%, 43%)
+$BrightYellow: hsl(71, 73%, 54%)
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+body
+    background-color: hsl(204, 43%, 93%)
+    font-family: 'Karla', sans-serif
+    display: flex
+    justify-content: center
+.container
+    margin: 200px 250px 250px 250px
+    display: grid
+    box-shadow: 5px 10px 18px #d4cece
+    
+.header
+    background-color: #fff
+    grid-column: 1/4
+    grid-row: 1/1
+    padding: 60px 300px 60px 60px
+    border-radius: 10px 10px 0px 0px
+    
+    h2
+        color: $Cyan
+        margin-bottom: 10px
+    h3
+        color: $BrightYellow
+        margin-bottom: 10px
+    p
+        color: gray
+        
+
+.first 
+    background-color: $Cyan
+    padding: 40px 0 40px 70px
+    grid-column: 1/3
+    grid-row: 2/3
+    border-radius: 0 0 0px 5px
+    
+
+    h3
+        color: #f1eaea
+        margin-bottom: 20px
+    h2 
+        color: white
+    
+    .button
+        background-color: $BrightYellow
+        padding: 15px 90px 15px 90px
+        text-decoration: none
+        color: #fdfbfb
+        border-radius: 7px
+        box-shadow: 5px 10px 18px #888888
+
+        
+    p 
+        color: #f1eaea
+        margin-bottom: 30px
+ 
+    .sub
+        display: flex    
+
+.second
+    background-color: hsl(179, 62%, 50%)
+    grid-column: 3/4
+    font-size: 15px
+    grid-row: 2/3
+    padding: 40px 100px 40px 40px
+    border-radius: 0 0 5px 0px
+    h3
+        color: white
+        margin-bottom: 15px
+
+    p 
+        color : #ffffffec
+        padding-right: 70px
+        line-height: 20px
+        
+
+
+@media screen and (max-width: 450px)
+    
+    .container
+        display: block
+        margin: 70px 40px 20px 40px
+    .header
+        padding: 50px 30px 50px 40px
+        font-size: 15px
+    .first 
+        padding-left: 40px
+        border-radius: 0 0 0px 0px
+
+    .second
+        padding-left: 50px
+        padding-right: 0 
+        border-radius: 0 0 5px 5px   
+    
+    
+        
+    
+
+        
+         
+    
+        
+    
+
+
+
+   
+
+
+    
